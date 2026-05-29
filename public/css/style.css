@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.pin-input {
+    letter-spacing: 10px;
+    font-size: 2rem;
+}
+
+.keypad-btn {
+    height: 70px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 18px;
+    transition: 0.2s ease;
+}
+
+.keypad-btn:hover {
+    transform: scale(1.03);
+}
+
+.logo-circle {
+    width: 90px;
+    height: 90px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 50%;
+}
